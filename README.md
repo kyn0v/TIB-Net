@@ -7,6 +7,8 @@ This project hosts the code for implementing the TIB-Net for drone detection.
 >H. Sun, J. Yang, J. Shen, D. Liang, L. Ning-Zhong and H. Zhouin  
 >In: IEEE Access, vol. 8, pp. 130697-130707, 2020, doi: 10.1109/ACCESS.2020.3009518.
 
+![avatar](https://github.com/kyn0v/TIB-Net/blob/master/result/demo/img_det/demo1.jpg)
+
 # Installation
 
 ## Requirements
