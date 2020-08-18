@@ -101,6 +101,10 @@ Then the result file (in '.pkl' format) would be save in `./result/evaluation/`.
 # Acknowledgement
 Our project is inspired by [EXTD](https://github.com/clovaai/EXTD_Pytorch#requirement), and we appreciate all the contributors who open source code and promote community development. We wish that our work could also inspire other researchers.
 
+# References
+* [TIB-Net: Drone Detection Network With Tiny Iterative Backbone](https://ieeexplore.ieee.org/document/9141228)
+* [EXTD: Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)
+* [S3FD.pytorch](https://github.com/yxlijun/S3FD.pytorch)
 # Citations
 ```
 @ARTICLE{9141228,
