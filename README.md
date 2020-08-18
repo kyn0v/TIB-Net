@@ -7,13 +7,13 @@ This project hosts the code for implementing the TIB-Net for drone detection.
 >H. Sun, J. Yang, J. Shen, D. Liang, L. Ning-Zhong and H. Zhouin  
 >In: IEEE Access, vol. 8, pp. 130697-130707, 2020, doi: 10.1109/ACCESS.2020.3009518.
 
-![avatar](https://github.com/kyn0v/TIB-Net/blob/master/result/demo/img_det/demo1.jpg)
+![avatar](https://github.com/kyn0v/TIB-Net/blob/master/result/demo/img_det/display.jpg)
 
 # Installation
 
 ## Requirements
 
-This implementation is based on [EXTD](https://github.com/clovaai/EXTD_Pytorch), and the [Environment Requirement](https://github.com/clovaai/EXTD_Pytorch#requirement) is almost the same. The following lists our current experimental environment:
+This implementation is based on [EXTD](https://github.com/clovaai/EXTD_Pytorch), and the [Environment Requirement](https://github.com/clovaai/EXTD_Pytorch#requirement) is basically the same. The following lists our current experimental environment:
 * Ubuntu 20.04.1 LTS
 * TITAN V
 * python 3.6
@@ -96,7 +96,7 @@ We provide a useful evaltool under `./evaltool/` directory. You can compute mAP 
 cd evaltool/
 python reval_voc.py
 ```
-Then the result file (in '.pkl' format) would be save in `./result/evaluation/`.
+Then the result file (in '.pkl' format) would be save in `./result/evaluation/`. Moreover, the function about drawing simple PR curve was commented, and you can activate the feature by modifying corresponding file. 
 
 # Acknowledgement
 Our project is inspired by [EXTD](https://github.com/clovaai/EXTD_Pytorch#requirement), and we appreciate all the contributors who open source code and promote community development. We wish that our work could also inspire other researchers.
