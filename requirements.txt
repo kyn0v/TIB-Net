@@ -1,0 +1,6 @@
+torch==1.0.0
+torchvision==0.2.1
+easydict==1.9
+opencv-python==3.4.2.17
+matplotlib==3.2.2
+sklearn==0.0
