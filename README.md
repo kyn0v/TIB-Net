@@ -5,7 +5,7 @@
 This project hosts the code for implementing the TIB-Net for drone detection.
 >[TIB-Net: Drone Detection Network With Tiny Iterative Backbone](https://ieeexplore.ieee.org/document/9141228)  
 >H. Sun, J. Yang, J. Shen, D. Liang, L. Ning-Zhong and H. Zhouin  
->In: IEEE Access, vol. 8, pp. 130697-130707, 2020, doi: 10.1109/ACCESS.2020.3009518.
+>In: IEEE Access, vol. 8, pp. 130697-130707, 2020
 
 ![avatar](https://github.com/kyn0v/TIB-Net/blob/master/result/demo/img_det/display.jpg)
 
@@ -99,12 +99,13 @@ python reval_voc.py
 Then the result file (in '.pkl' format) would be save in `./result/evaluation/`. Moreover, the function about drawing simple PR curve was commented, and you can activate the feature by modifying corresponding file. 
 
 # Acknowledgement
-Our project is inspired by [EXTD](https://github.com/clovaai/EXTD_Pytorch#requirement), and we appreciate all the contributors who open source code and promote community development. We wish that our work could also inspire other researchers.
+We appreciate all the contributors who open source code and promote community development, and we wish that our work could also inspire other researchers.
 
 # References
 * [TIB-Net: Drone Detection Network With Tiny Iterative Backbone](https://ieeexplore.ieee.org/document/9141228)
-* [EXTD: Extremely Tiny Face Detector via Iterative Filter Reuse](https://arxiv.org/abs/1906.06579)
+* [EXTD_Pytorch](https://github.com/clovaai/EXTD_Pytorch)
 * [S3FD.pytorch](https://github.com/yxlijun/S3FD.pytorch)
+
 # Citations
 ```
 @ARTICLE{9141228,
@@ -118,4 +119,4 @@ Our project is inspired by [EXTD](https://github.com/clovaai/EXTD_Pytorch#requir
 ```
 
 ------
-*May the force be with you.*
+*May the force be with you~*
