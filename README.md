@@ -60,6 +60,12 @@ It is recommended to symlink the dataset root to $TIB-Net/data. If your folder s
 │   ├── test.txt
 │   ├── train.txt
 │   └── val.txt
+├── result
+│   ├── demo
+│   │   ├── img
+│   │   └── img_det
+│   ├── detection
+│   └── evaluation
 ├── demo.py
 └── ...
 ```
