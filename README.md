@@ -88,7 +88,7 @@ python demo.py [--image_dir ${IMGDIR}] [--save_dir ${SAVEDIR}] --weight ${WEIGHT
 
 By default we evaluate the model on the validation set after each epoch, you can change the evaluation interval by modifying the training part in `./train.py`.
 ```shell
-python demo.py [--batch_size ${BATCHSIZE}] [--resume ${CHECKPOINT}] [--num_workers ${WORKSNUM}] [--lr ${LEARNINGRATE}]
+python train.py [--batch_size ${BATCHSIZE}] [--resume ${CHECKPOINT}] [--num_workers ${WORKSNUM}] [--lr ${LEARNINGRATE}]
 ```
 
 **NOTE**:
